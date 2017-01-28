@@ -53,17 +53,35 @@
         android:text="Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/button5"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="125dp"
-        android:id="@+id/button2" />
+        android:id="@+id/button3"
+        android:layout_alignBaseline="@+id/button2"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_toEndOf="@+id/textView" />
+
+    <Button
+        android:text="Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="37dp"
+        android:id="@+id/button2"
+        android:layout_below="@+id/seekBar3"
+        android:layout_toEndOf="@+id/seekBar3"
+        android:layout_marginStart="20dp" />
 
     <SeekBar
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:id="@+id/seekBar3"
         android:layout_below="@+id/button5"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="72dp"
-        android:id="@+id/seekBar3" />
+        android:layout_toEndOf="@+id/button4"
+        android:layout_marginStart="14dp" />
+
+    <SeekBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/seekBar3"
+        android:layout_toEndOf="@+id/button5"
+        android:id="@+id/seekBar4" />
 
 </RelativeLayout>
