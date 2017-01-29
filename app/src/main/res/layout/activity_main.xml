@@ -16,4 +16,13 @@
         android:text="Hello World!"
         android:id="@+id/textView" />
 
+    <SeekBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="8dp"
+        android:id="@+id/seekBar"
+        android:layout_alignParentEnd="true" />
+
 </RelativeLayout>
