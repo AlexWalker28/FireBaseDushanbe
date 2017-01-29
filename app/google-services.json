@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "204943390097",
+    "firebase_url": "https://dushanbe-685b2.firebaseio.com",
+    "project_id": "dushanbe-685b2",
+    "storage_bucket": "dushanbe-685b2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:204943390097:android:f7c732d8ab3331ca",
+        "android_client_info": {
+          "package_name": "com.example.awalker.firebasedushanbe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "204943390097-807h9a55bd3c2vkauc7crdgo4biiekdr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.awalker.firebasedushanbe",
+            "certificate_hash": "6371058BE4611F15793094CBE577162A6BD48110"
+          }
+        },
+        {
+          "client_id": "204943390097-kq2f34musoe93k32fp0uv5sqt5dpvir3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHL7LgPEygFO4SR7-Rok3WASiq3o1NJiA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "204943390097-kq2f34musoe93k32fp0uv5sqt5dpvir3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
